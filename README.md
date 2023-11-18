@@ -28,12 +28,12 @@ forge build
 
 In order to run the scripts (solutions), you need to fill in the data in the `.env` file, here is what you need to add for each variable in the `.env` file.
 
-- **SEPOLIA_RPC_URL**: your alchemy sepolia RPC, or you can put a public RPC.
-- **PRIVATE_KEY**: Your first wallet private key prefixed by `0x`.
-- **PRIVATE_KEY_2**: Your second wallet private key prefixed by `0x`.
-- **MY_ADDRESS**: The public address of the first wallet.
-- **MY_ADDRESS_2**: The public address of the second wallet.
-- **ETHERSCAN_KEY**: Your etherscan API key, you need it in order to verify the contract.
+- `SEPOLIA_RPC_URL`: your alchemy sepolia RPC, or you can put a public RPC.
+- `PRIVATE_KEY`: Your first wallet private key prefixed by `0x`.
+- `PRIVATE_KEY_2`: Your second wallet private key prefixed by `0x`.
+- `MY_ADDRESS`: The public address of the first wallet.
+-` MY_ADDRESS_2`: The public address of the second wallet.
+- `ETHERSCAN_KEY`: Your etherscan API key, you need it in order to verify the contract.
 
 ## Solutions
 All the solutions are provided in the `/scripts` folder.
