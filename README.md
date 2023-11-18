@@ -1,22 +1,22 @@
 # OpenZeppelin Ethernaut CTF Solutions | Foundry
 
-This repo solves all Ethernaut CTFs using Foundary framework. Each CTF has its own solution file, comments to explain the solution, logging result in the cmd for better understanding. Feel free to contact us if there is something not clear, or there is an error in the solution.
+This repo solves all Ethernaut CTFs using Foundry framework. Each CTF has its own solution file, comments to explain the solution, and logging results in the cmd for better understanding. Feel free to contact us if there is something not clear, or if there is an error in the solution.
 
 ## Getting Started
 
-- All Ethernaut CTFs smart contracts are existed in `/src` folder
-- Solutions are existed in `/script` folder
-- The solution script, deployes a new instance of the CTF smart contract, then exploid it
+- All Ethernaut CTFs smart contracts exist in `/src` folder.
+- Solutions are existed in `/script` folder.
+- The solution script deploys a new instance for the CTF smart contract, then cracks it.
 
 ## Installation
 
-1. Clone the git reposatiry
+1. Clone the git repository.
 
 ```
-git clone https://github.com/Al-Qa-qa/ethernaut-solutions-foundary
+git clone https://github.com/Al-Qa-qa/ethernaut-solutions-foundry
 ```
 
-2. Compile smart contracts, and build them
+2. Compile smart contracts, and build them.
 
 ```
 forge build
@@ -26,20 +26,19 @@ forge build
 
 ## Setup
 
-In order to run the contracts, you need to fill in the data in the `.env` file, here is what you need to add for each variable in the `.env` file.
+In order to run the scripts (solutions), you need to fill in the data in the `.env` file, here is what you need to add for each variable in the `.env` file.
 
-- **SEPOLIA_RPC_URL**: your alchemy sepolia RPC, or you can put a public RPC
-- **PRIVATE_KEY**: Your first wallet private key prexied with `0x`
-- **PRIVATE_KEY_2**: Your second wallet private key prexied with `0x`
-- **MY_ADDRESS**: The public address of the first wallet
-- **MY_ADDRESS_2**: The public address of the second wallet
-- **ETHERSCAN_KEY**: Your etherscan API key, you need it in order to verify the contract
+- **SEPOLIA_RPC_URL**: your alchemy sepolia RPC, or you can put a public RPC.
+- **PRIVATE_KEY**: Your first wallet private key prefixed by `0x`.
+- **PRIVATE_KEY_2**: Your second wallet private key prefixed by `0x`.
+- **MY_ADDRESS**: The public address of the first wallet.
+- **MY_ADDRESS_2**: The public address of the second wallet.
+- **ETHERSCAN_KEY**: Your etherscan API key, you need it in order to verify the contract.
 
 ## Solutions
-
 All the solutions are provided in the `/scripts` folder.
 
-We will add solutions for each CTF as a thread in X (Twitter), once added the solution on X, we will reference to it here.
+We will add solutions for each CTF as a thread in X (Twitter), once the solution for a certain CTF is on X, we will reference it here.
 
 ## License
 
