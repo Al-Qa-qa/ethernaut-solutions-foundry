@@ -1,4 +1,4 @@
-# OpenZeppelin Ethernaut CTF Solutions | Foundary Environment
+# OpenZeppelin Ethernaut CTF Solutions | Foundry
 
 This repo solves all Ethernaut CTFs using Foundary framework. Each CTF has its own solution file, comments to explain the solution, logging result in the cmd for better understanding. Feel free to contact us if there is something not clear, or there is an error in the solution.
 
@@ -58,5 +58,5 @@ Here are some of the services and websites that we used to make this project.
 We would like to apologize if we used a free package or service and forgot to mention it.
 
 - [OpenZeppelin](https://www.openzeppelin.com/)
-- [Ethernaut](https://www.ethernaut.openzeppelin.com/)
+- [Ethernaut](https://ethernaut.openzeppelin.com/)
 - [Foundary](https://book.getfoundry.sh/)
