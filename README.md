@@ -1,66 +1,62 @@
-## Foundry
+# OpenZeppelin Ethernaut CTF Solutions | Foundary Environment
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+This repo solves all Ethernaut CTFs using Foundary framework. Each CTF has its own solution file, comments to explain the solution, logging result in the cmd for better understanding. Feel free to contact us if there is something not clear, or there is an error in the solution.
 
-Foundry consists of:
+## Getting Started
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+- All Ethernaut CTFs smart contracts are existed in `/src` folder
+- Solutions are existed in `/script` folder
+- The solution script, deployes a new instance of the CTF smart contract, then exploid it
 
-## Documentation
+## Installation
 
-https://book.getfoundry.sh/
+1. Clone the git reposatiry
 
-## Usage
-
-### Build
-
-```shell
-$ forge build
+```
+git clone https://github.com/Al-Qa-qa/ethernaut-solutions-foundary
 ```
 
-### Test
+2. Compile smart contracts, and build them
 
-```shell
-$ forge test
+```
+forge build
 ```
 
-### Format
+3. Create `.env` file, and copy the data in the `.env.sample` in it.
 
-```shell
-$ forge fmt
-```
+## Setup
 
-### Gas Snapshots
+In order to run the contracts, you need to fill in the data in the `.env` file, here is what you need to add for each variable in the `.env` file.
 
-```shell
-$ forge snapshot
-```
+- **SEPOLIA_RPC_URL**: your alchemy sepolia RPC, or you can put a public RPC
+- **PRIVATE_KEY**: Your first wallet private key prexied with `0x`
+- **PRIVATE_KEY_2**: Your second wallet private key prexied with `0x`
+- **MY_ADDRESS**: The public address of the first wallet
+- **MY_ADDRESS_2**: The public address of the second wallet
+- **ETHERSCAN_KEY**: Your etherscan API key, you need it in order to verify the contract
 
-### Anvil
+## Solutions
 
-```shell
-$ anvil
-```
+All the solutions are provided in the `/scripts` folder.
 
-### Deploy
+We will add solutions for each CTF as a thread in X (Twitter), once added the solution on X, we will reference to it here.
 
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
+## License
 
-### Cast
+This project is under the MIT License. See `LICENSE` for more information.
 
-```shell
-$ cast <subcommand>
-```
+## Contact
 
-### Help
+Al-Qa'qa' - [@Al_Qa_qa](https://twitter.com/Al_Qa_qa) - alqaqa.fighter@gmail.com
 
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+Project Link: [https://github.com/Al-Qa-qa/ethernaut-solutions-foundary](https://github.com/Al-Qa-qa/ethernaut-solutions-foundary)
+
+## Acknowledgments
+
+Here are some of the services and websites that we used to make this project.
+
+We would like to apologize if we used a free package or service and forgot to mention it.
+
+- [OpenZeppelin](https://www.openzeppelin.com/)
+- [Ethernaut](https://www.ethernaut.openzeppelin.com/)
+- [Foundary](https://book.getfoundry.sh/)
