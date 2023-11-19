@@ -43,8 +43,6 @@ We discuss every solution as an X (twitter) thread, you can check them out for d
 1. Fallback: [https://twitter.com/Al_Qa_qa/status/1725932182479196277](https://twitter.com/Al_Qa_qa/status/1725932182479196277)
 2. Fal1out: [https://twitter.com/Al_Qa_qa/status/1726271394403737651](https://twitter.com/Al_Qa_qa/status/1726271394403737651)
 
-We will add solutions for each CTF as a thread in X (Twitter), once the solution for a certain CTF is on X, we will reference it here.
-
 ## License
 
 This project is under the MIT License. See `LICENSE` for more information.
