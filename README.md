@@ -42,6 +42,8 @@ We discuss every solution as an X (twitter) thread, you can check them out for d
 
 1. Fallback: [https://twitter.com/Al_Qa_qa/status/1725932182479196277](https://twitter.com/Al_Qa_qa/status/1725932182479196277)
 2. Fal1out: [https://twitter.com/Al_Qa_qa/status/1726271394403737651](https://twitter.com/Al_Qa_qa/status/1726271394403737651)
+2. CoinFlip: [https://twitter.com/Al_Qa_qa/status/1726646608354574730](https://twitter.com/Al_Qa_qa/status/1726646608354574730)
+
 
 ## License
 
