@@ -31,11 +31,11 @@ In order to run the scripts (solutions), you need to fill in the data in the `.e
 - `SEPOLIA_RPC_URL`: your alchemy sepolia RPC, or you can put a public RPC.
 - `PRIVATE_KEY`: Your first wallet private key prefixed by `0x`.
 - `PRIVATE_KEY_2`: Your second wallet private key prefixed by `0x`.
-- `MY_ADDRESS`: The public address of the first wallet.
--` MY_ADDRESS_2`: The public address of the second wallet.
+- `MY_ADDRESS`: The public address of the first wallet. -` MY_ADDRESS_2`: The public address of the second wallet.
 - `ETHERSCAN_KEY`: Your etherscan API key, you need it in order to verify the contract.
 
 ## Solutions
+
 All the solutions are provided in the `/scripts` folder.
 
 We discuss every solution as an X (twitter) thread, you can check them out for deep understanding.
@@ -46,7 +46,7 @@ We discuss every solution as an X (twitter) thread, you can check them out for d
 4. Telephone: [https://twitter.com/Al_Qa_qa/status/1726997223224021411](https://twitter.com/Al_Qa_qa/status/1726997223224021411)
 5. Token: [https://twitter.com/Al_Qa_qa/status/1727362365673631958](https://twitter.com/Al_Qa_qa/status/1727362365673631958)
 6. Delegation: [https://twitter.com/Al_Qa_qa/status/1727729481903726644](https://twitter.com/Al_Qa_qa/status/1727729481903726644)
-
+7. Force: [https://twitter.com/Al_Qa_qa/status/1728092529210351734](https://twitter.com/Al_Qa_qa/status/1728092529210351734)
 
 ## License
 
