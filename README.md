@@ -47,6 +47,7 @@ We discuss every solution as an X (twitter) thread, you can check them out for d
 5. Token: [https://twitter.com/Al_Qa_qa/status/1727362365673631958](https://twitter.com/Al_Qa_qa/status/1727362365673631958)
 6. Delegation: [https://twitter.com/Al_Qa_qa/status/1727729481903726644](https://twitter.com/Al_Qa_qa/status/1727729481903726644)
 7. Force: [https://twitter.com/Al_Qa_qa/status/1728092529210351734](https://twitter.com/Al_Qa_qa/status/1728092529210351734)
+8. Vault: [https://twitter.com/Al_Qa_qa/status/1728472291103711566](https://twitter.com/Al_Qa_qa/status/1728472291103711566)
 
 ## License
 
