@@ -49,6 +49,7 @@ We discuss every solution as an X (twitter) thread, you can check them out for d
 7. Force: [https://twitter.com/Al_Qa_qa/status/1728092529210351734](https://twitter.com/Al_Qa_qa/status/1728092529210351734)
 8. Vault: [https://twitter.com/Al_Qa_qa/status/1728472291103711566](https://twitter.com/Al_Qa_qa/status/1728472291103711566)
 9. King: [https://twitter.com/Al_Qa_qa/status/1729178725009555741](https://twitter.com/Al_Qa_qa/status/1729178725009555741)
+10. Reentrance: [https://twitter.com/Al_Qa_qa/status/1729530569371824521](https://twitter.com/Al_Qa_qa/status/1729530569371824521)
 
 ## License
 
