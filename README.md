@@ -51,6 +51,7 @@ We discuss every solution as an X (twitter) thread, you can check them out for d
 9. King: [https://twitter.com/Al_Qa_qa/status/1729178725009555741](https://twitter.com/Al_Qa_qa/status/1729178725009555741)
 10. Reentrance: [https://twitter.com/Al_Qa_qa/status/1729530569371824521](https://twitter.com/Al_Qa_qa/status/1729530569371824521)
 11. Elevator: [https://twitter.com/Al_Qa_qa/status/1729895020910580201](https://twitter.com/Al_Qa_qa/status/1729895020910580201)
+12. Privacy: [https://twitter.com/Al_Qa_qa/status/1730259669279445159](https://twitter.com/Al_Qa_qa/status/1730259669279445159)
 
 ## License
 
