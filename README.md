@@ -52,7 +52,8 @@ We discuss every solution as an X (twitter) thread, you can check them out for d
 10. Reentrance: [https://twitter.com/Al_Qa_qa/status/1729530569371824521](https://twitter.com/Al_Qa_qa/status/1729530569371824521)
 11. Elevator: [https://twitter.com/Al_Qa_qa/status/1729895020910580201](https://twitter.com/Al_Qa_qa/status/1729895020910580201)
 12. Privacy: [https://twitter.com/Al_Qa_qa/status/1730259669279445159](https://twitter.com/Al_Qa_qa/status/1730259669279445159)
-13. GateKeeperOne: [https://twitter.com/Al_Qa_qa/status/1730653184392093907](https://twitter.com/Al_Qa_qa/status/1730653184392093907)
+13. GatekeeperOne: [https://twitter.com/Al_Qa_qa/status/1730653184392093907](https://twitter.com/Al_Qa_qa/status/1730653184392093907)
+14. GatekeeperTwo: [https://twitter.com/Al_Qa_qa/status/1730985699472490561](https://twitter.com/Al_Qa_qa/status/1730985699472490561)
 
 ## License
 
