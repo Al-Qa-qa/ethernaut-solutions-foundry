@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 /* This gatekeeper introduces a few new challenges. Register as an entrant to pass this level. */
 
-contract GatekeeperTwo {
+contract NaughtCoin {
     address public entrant;
 
     modifier gateOne() {

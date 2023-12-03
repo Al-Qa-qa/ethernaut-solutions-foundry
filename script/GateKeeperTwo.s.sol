@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 import "forge-std/Script.sol";
 import "forge-std/console.sol";
-import {GatekeeperTwo} from "../src/GatekeeperTwo.sol";
+import {NaughtCoin} from "../src/GatekeeperTwo.sol";
 
 /*
     We made this script run in local Foundry blockchain. You don't need to have an RPC URL or an address.
@@ -14,11 +14,11 @@ import {GatekeeperTwo} from "../src/GatekeeperTwo.sol";
 contract GatekeeperTwoSolution is Script {
     // $ forge script script/GatekeeperTwo.s.sol --tc GatekeeperTwoSolution -
 
-    GatekeeperTwo gateKeeperInstance;
+    NaughtCoin gateKeeperInstance;
     GateKeeperAttack attackContract;
 
     function run() external {
-        gateKeeperInstance = new GatekeeperTwo();
+        gateKeeperInstance = new NaughtCoin();
 
         // - To unlock the contract we need to pass three checks:
 
@@ -42,10 +42,10 @@ contract GatekeeperTwoSolution is Script {
 }
 
 contract GateKeeperAttack {
-    GatekeeperTwo gateKeeperInstance;
+    NaughtCoin gateKeeperInstance;
 
     constructor(address target) {
-        gateKeeperInstance = GatekeeperTwo(target);
+        gateKeeperInstance = NaughtCoin(target);
 
         // For the third check:
         // require(uint64(bytes8(keccak256(abi.encodePacked(msg.sender)))) ^ uint64(_gateKey) == type(uint64).max);
