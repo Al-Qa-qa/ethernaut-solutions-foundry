@@ -5,12 +5,6 @@ import "forge-std/Script.sol";
 import "forge-std/console.sol";
 import {NaughtCoin} from "../src/NaughtCoin.sol";
 
-/*
-    We made this script run in local Foundry blockchain. You don't need to have an RPC URL or an address.
-    This challenge is kind of hard, and it needs some testing to pass it, as there are 5 checks.
-    We made it run in local 
-*/
-
 contract NaughtCoinSolution is Script {
     // $ forge script script/NaughtCoin.s.sol --tc NaughtCoinSolution
 
@@ -38,7 +32,7 @@ contract NaughtCoinSolution is Script {
         coinInstance.transferFrom(player, playerAnotherAddress, playerBalance);
 
         console.log("Player balance:", coinInstance.balanceOf(player));
-
+        vm.stopPrank();
         // -----------------
     }
 }

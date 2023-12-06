@@ -5,13 +5,8 @@ import "forge-std/Script.sol";
 import "forge-std/console.sol";
 import {Reentrance} from "../src/Reentrance.sol";
 
-/*
-    We made this script run in local Foundry blockchain. You don't need to have an RPC URL or an address.
-    We prefered to make it local, to make it easy to test. As reentrancy calls alot of functions and can consume ETH.
-*/
-
 contract ReentranceSolution is Script {
-    // $ orge script script/Reentrance.s.sol --tc ReentranceSolution -vvvv
+    // $ forge script script/Reentrance.s.sol --tc ReentranceSolution -vvvv
 
     Reentrance reentranceInstance;
     ReentranceAttack attackContract;
@@ -31,11 +26,11 @@ contract ReentranceSolution is Script {
 
         // The attack will start from here and the attacker will be able to drain all the ETH in `Reentrance` contract.
 
-        // - The contract has a `withdraw` function, but it sends funds before reseting the balance.
-        // - If the attacker called withdraw again after receiving his withdrawing immediatly after receiving ETH, he could pass this check.
+        // - The contract has a `withdraw` function, but it sends funds before resetting the balance.
+        // - If the attacker called `withdraw` function again after receiving his withdrawal immediately after receiving ETH, he could pass this check.
         // - The attacker will make a contract that has `receive` function, that will recall the `withdraw` function in `Reentrance` contract.
-        // - So when the attacker withdrawed his funds, he can rewithdraw his funds again, since he will call withdraw before updating his balance.
-        // - The attacker will drain all `Reentrance` ETH (donators funds), and make the attack successfully.
+        // - So when the attacker withdraws his funds, he can re-withdraw again, since he will call withdraw before updating his balance.
+        // - The attacker will drain all `Reentrance` ETH (donators funds), and make the attack successful.
 
         // Deploy the attack contract
         address attacker = makeAddr("attacker");

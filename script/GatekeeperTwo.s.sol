@@ -12,7 +12,7 @@ import {NaughtCoin} from "../src/GatekeeperTwo.sol";
 */
 
 contract GatekeeperTwoSolution is Script {
-    // $ forge script script/GatekeeperTwo.s.sol --tc GatekeeperTwoSolution -
+    // $ forge script script/GatekeeperTwo.s.sol --tc GatekeeperTwoSolution
 
     NaughtCoin gateKeeperInstance;
     GateKeeperAttack attackContract;
@@ -58,7 +58,7 @@ contract GateKeeperAttack {
         // - You will pass the third check successfully
 
         uint64 firstPartLeft = uint64(bytes8(keccak256(abi.encodePacked(address(this)))));
-        uint64 gateKey = ~firstPartLeft;
+        uint64 gateKey = ~firstPartLeft; // Applying NOT operator to the `firstPartLeft` variable
 
         gateKeeperInstance.enter(bytes8(gateKey));
     }
