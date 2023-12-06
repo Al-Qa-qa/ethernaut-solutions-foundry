@@ -23,7 +23,7 @@ contract VaultSolution is Script {
         // - The `Vault` contract has a password that is kept private, we need to know the password in order to unlock the contract.
         // - Since the data is private, it seems we can't retrieve its value. But since the blockchain is public by its design, we can get the password value.
         // - We can read the contract storage slot values, the password lies after the locked variable, so it's in the second slot (slot 1), since we are starting with slot 0.
-        // - In Foundry: We can write `cast storage <YOUR_VAULT_INSTANCE_ADDRESS> 1 --rpc-url $SEPOLIA_RPC_URL`.
+        // - In Foundry: We can write `cast storage <YOUR_VAULT_INSTANCE_ADDRESS> 1 --rpc-url <RPC_URL>`.
         // - We will get the password value but in hex format.
         // - You can use any scripting language like JavaScript to decode the hex into a string value, and you will get the password value in a string.
         // - Congratulations, you get the password and you can unlock the contract.
