@@ -4,3 +4,6 @@
 [submodule "lib/oz-06"]
 	path = lib/oz-06
 	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "lib/oz-08"]
+	path = lib/oz-08
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
