@@ -26,10 +26,10 @@ forge build
 ```
 
 3. Run forge script for any challenge.
+
 ```
 forge script script/Fallback.s.sol
 ```
-
 
 ## Solutions
 
@@ -51,6 +51,8 @@ We discuss every solution as an X (twitter) thread, you can check them out for d
 |GatekeeperOne|[https://twitter.com/Al_Qa_qa/status/1730653184392093907](https://twitter.com/Al_Qa_qa/status/1730653184392093907)|
 |GatekeeperTwo|[https://twitter.com/Al_Qa_qa/status/1730985699472490561](https://twitter.com/Al_Qa_qa/status/1730985699472490561)|
 |NaughtCoin|[https://twitter.com/Al_Qa_qa/status/1731349380345614370](https://twitter.com/Al_Qa_qa/status/1731349380345614370)|
+|Preservation|[https://twitter.com/Al_Qa_qa/status/1732797381706404072](https://twitter.com/Al_Qa_qa/status/1732797381706404072)|
+|Recovery|[https://twitter.com/Al_Qa_qa/status/1733186855745561056](https://twitter.com/Al_Qa_qa/status/1733186855745561056)|
 
 ## License
 
