@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "openzeppelin-contracts/contracts/token/ERC20/ERC20.sol";
+import "@openzeppelin-08/contracts/token/ERC20/ERC20.sol";
 
 /*
     NaughtCoin is an ERC20 token and you're already holding all of them.
