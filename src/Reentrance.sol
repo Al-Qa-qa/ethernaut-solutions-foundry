@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.6.12;
 
-import "openzeppelin-contracts-06/math/SafeMath.sol";
+import "openzeppelin-contracts-06/contracts/utils/math/SafeMath.sol";
 
 /* The goal of this level is for you to steal all the funds from the contract. */
 
