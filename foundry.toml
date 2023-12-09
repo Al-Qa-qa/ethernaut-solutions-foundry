@@ -4,8 +4,8 @@ out = "out"
 libs = ["lib"]
 
 remappings = [
-    "@openzeppelin-08=lib/openzeppelin-contracts-08",
-    "@openzeppelin-06=lib/openzeppelin-contracts-6",
+    "@openzeppelin-08=lib/oz-08",
+    "@openzeppelin-06=lib/oz-06",
 ]
 
 [fmt]

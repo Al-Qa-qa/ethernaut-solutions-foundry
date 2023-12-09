@@ -2,7 +2,6 @@
 pragma solidity ^0.6.0;
 
 import "openzeppelin-contracts-6/contracts/utils/math/SafeMath.sol";
-import "openzeppelin-contracts-08/contracts/utils/math/SafeMath.sol";
 
 /* Claim ownership of the contract below to complete this level. */
 
