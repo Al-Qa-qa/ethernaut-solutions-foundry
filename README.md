@@ -54,6 +54,7 @@ We discuss every solution as an X (twitter) thread, you can check them out for d
 |Preservation|[https://twitter.com/Al_Qa_qa/status/1732797381706404072](https://twitter.com/Al_Qa_qa/status/1732797381706404072)|
 |Recovery|[https://twitter.com/Al_Qa_qa/status/1733186855745561056](https://twitter.com/Al_Qa_qa/status/1733186855745561056)|
 |MagicNumber|[https://twitter.com/Al_Qa_qa/status/1733552067677933732](https://twitter.com/Al_Qa_qa/status/1733552067677933732)|
+|Alien Codex|[https://twitter.com/Al_Qa_qa/status/1733898573295526100](https://twitter.com/Al_Qa_qa/status/1733898573295526100)|
 
 ## License
 
