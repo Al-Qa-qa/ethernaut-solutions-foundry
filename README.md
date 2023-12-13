@@ -57,6 +57,7 @@ We discuss every solution as an X (twitter) thread, you can check them out for d
 |Alien Codex|[https://twitter.com/Al_Qa_qa/status/1733898573295526100](https://twitter.com/Al_Qa_qa/status/1733898573295526100)|
 |Denial|[https://twitter.com/Al_Qa_qa/status/1734251088453267722](https://twitter.com/Al_Qa_qa/status/1734251088453267722)|
 |Shop|[https://twitter.com/Al_Qa_qa/status/1734613240431235091](https://twitter.com/Al_Qa_qa/status/1734613240431235091)|
+|DEX|[https://twitter.com/Al_Qa_qa/status/1735009587567223154](https://twitter.com/Al_Qa_qa/status/1735009587567223154)|
 
 ## License
 
