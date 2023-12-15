@@ -58,6 +58,7 @@ We discuss every solution as an X (twitter) thread, you can check them out for d
 |Denial|[https://twitter.com/Al_Qa_qa/status/1734251088453267722](https://twitter.com/Al_Qa_qa/status/1734251088453267722)|
 |Shop|[https://twitter.com/Al_Qa_qa/status/1734613240431235091](https://twitter.com/Al_Qa_qa/status/1734613240431235091)|
 |DEX|[https://twitter.com/Al_Qa_qa/status/1735009587567223154](https://twitter.com/Al_Qa_qa/status/1735009587567223154)|
+|Dex2|[https://twitter.com/Al_Qa_qa/status/1735697068298006684](https://twitter.com/Al_Qa_qa/status/1735697068298006684)|
 
 ## License
 
