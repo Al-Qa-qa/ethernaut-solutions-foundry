@@ -12,6 +12,17 @@ This repo solves all Ethernaut CTFs using Foundry framework. Each CTF has its so
 
 ## Installation
 
+It is better to have a version of `forge` equal to or higher than the version of `forge` that is being used in the repo, to avoid having any errors.
+
+_Repo forge version: forge 0.2.0 (same as cast, anvil, and chisel)_
+
+To update Foundry to the latest version you can write:
+```
+foundryup
+```
+
+---
+
 1. Clone the git repository.
 
 ```
@@ -60,7 +71,7 @@ We discuss every solution as an X (twitter) thread, you can check them out for d
 |DEX|[https://twitter.com/Al_Qa_qa/status/1735009587567223154](https://twitter.com/Al_Qa_qa/status/1735009587567223154)|
 |DEX 2|[https://twitter.com/Al_Qa_qa/status/1735697068298006684](https://twitter.com/Al_Qa_qa/status/1735697068298006684)|
 |Puzzle Wallet|[https://twitter.com/Al_Qa_qa/status/1736819045691715628](https://twitter.com/Al_Qa_qa/status/1736819045691715628)|
-|Motor bike|[https://twitter.com/Al_Qa_qa/status/1737190116815249756](https://twitter.com/Al_Qa_qa/status/1737190116815249756)|
+|Motor bike|[https://twitter.com/Al_Qa_qa/status/1737191622582919377](https://twitter.com/Al_Qa_qa/status/1737191622582919377)|
 
 ## License
 
