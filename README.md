@@ -17,6 +17,7 @@ It is better to have a version of `forge` equal to or higher than the version of
 _Repo forge version: forge 0.2.0 (same as cast, anvil, and chisel)_
 
 To update Foundry to the latest version you can write:
+
 ```
 foundryup
 ```
@@ -72,6 +73,7 @@ We discuss every solution as an X (twitter) thread, you can check them out for d
 |DEX 2|[https://twitter.com/Al_Qa_qa/status/1735697068298006684](https://twitter.com/Al_Qa_qa/status/1735697068298006684)|
 |Puzzle Wallet|[https://twitter.com/Al_Qa_qa/status/1736819045691715628](https://twitter.com/Al_Qa_qa/status/1736819045691715628)|
 |Motor bike|[https://twitter.com/Al_Qa_qa/status/1737191622582919377](https://twitter.com/Al_Qa_qa/status/1737191622582919377)|
+|DoubleEntryPoint|[https://twitter.com/Al_Qa_qa/status/1737866163726565586](https://twitter.com/Al_Qa_qa/status/1737866163726565586)|
 
 ## License
 
