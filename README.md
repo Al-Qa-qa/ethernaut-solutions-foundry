@@ -74,6 +74,7 @@ We discuss every solution as an X (twitter) thread, you can check them out for d
 |Puzzle Wallet|[https://twitter.com/Al_Qa_qa/status/1736819045691715628](https://twitter.com/Al_Qa_qa/status/1736819045691715628)|
 |Motor bike|[https://twitter.com/Al_Qa_qa/status/1737191622582919377](https://twitter.com/Al_Qa_qa/status/1737191622582919377)|
 |DoubleEntryPoint|[https://twitter.com/Al_Qa_qa/status/1737866163726565586](https://twitter.com/Al_Qa_qa/status/1737866163726565586)|
+|GoodSamaritan|[https://twitter.com/Al_Qa_qa/status/1738246983578427589](https://twitter.com/Al_Qa_qa/status/1738246983578427589)|
 
 ## License
 
