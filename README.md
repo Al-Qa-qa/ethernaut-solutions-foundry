@@ -76,6 +76,7 @@ We discuss every solution as an X (twitter) thread, you can check them out for d
 |DoubleEntryPoint|[https://twitter.com/Al_Qa_qa/status/1737866163726565586](https://twitter.com/Al_Qa_qa/status/1737866163726565586)|
 |GoodSamaritan|[https://twitter.com/Al_Qa_qa/status/1738246983578427589](https://twitter.com/Al_Qa_qa/status/1738246983578427589)|
 |GatekeeperThree|[https://twitter.com/Al_Qa_qa/status/1738617504195338450](https://twitter.com/Al_Qa_qa/status/1738617504195338450)|
+|Switch|[https://twitter.com/Al_Qa_qa/status/1739006383930937479](https://twitter.com/Al_Qa_qa/status/1739006383930937479)|
 
 ## License
 
