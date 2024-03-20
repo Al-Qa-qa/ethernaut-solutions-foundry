@@ -25,6 +25,8 @@ contract MotorbikeSolution is Script {
         // - `upgradeToAndCall()` will make `delegatecall` itself, so the `selfdestruct` will occur in the `Engine` contract context.
         // - Motorbike will be useless, As it is pointing to an implementation contract that has 0 bytes. And the challenge is passed successfully.
 
+        // NOTE: `selfdestruct` behavior changes after Dencun upgrade, and the contract will not get destroyed (setting its bytecodes to zero) when selfdestructing it.
+
         // --- Attack Starts From Here ---
 
         vm.stopPrank();
